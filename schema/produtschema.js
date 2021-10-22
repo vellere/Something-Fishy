@@ -20,5 +20,5 @@ const productSchema = mongoose.Schema({
         required: true
     }
 }, {timestamps: true});
-// CTK{PAt!3nc3_is_an_Art_0f_h0p!ng!}
+
 module.exports = mongoose.model('Product', productSchema);
